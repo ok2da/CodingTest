@@ -9,10 +9,7 @@ class Solution {
         
         for(int i = 0; i < indices.length; i++){
         	int index = indices[i];
-        	int length = sb.length();
-
         	sb.deleteCharAt(index-i);        		
-        	
         }
         
         answer = sb.toString();
