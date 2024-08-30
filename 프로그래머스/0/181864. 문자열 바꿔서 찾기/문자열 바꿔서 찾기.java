@@ -1,9 +1,7 @@
 class Solution {
     public int solution(String myString, String pat) {
         
-        myString = myString.replaceAll("A","C");
-        myString = myString.replaceAll("B","A");
-        myString = myString.replaceAll("C","B");
+        myString = myString.replace("A","a").replace("B","A").replace("a","B");
         
         int answer = myString.indexOf(pat) != -1 ? 1 : 0;
         
