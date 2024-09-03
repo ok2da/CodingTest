@@ -1,13 +1,9 @@
 class Solution {
     public int[] solution(int[] arr, int n) {
-        int[] answer = {};
-        boolean odd_even = arr.length % 2 == 0 ? true : false;
+        //int[] answer = {};
+        int index = arr.length % 2 == 0 ? 1 : 0;
         
-        for(int i = 0; i < arr.length; i++){
-            if(odd_even) i++;
-            arr[i] += n;
-            if(!odd_even) i++;
-        }
+        for(int i = index; i < arr.length; i += 2) arr[i] += n;
         
         return arr;
     }
