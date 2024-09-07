@@ -16,13 +16,13 @@ class Solution {
                 a = true;
             }else if(x == max && y == max){
                 b = true;
-            }else if(x == min && y == max && a && b){
+            }else if(x == min && y == max){
                 a = false;
                 min++;
-            }else if(x == min-1 && y == min && !a && b){
-	        	b = false;
-	        	max--;
-	        }
+            }else if(x == min - 1 && y == min){
+                b = false;
+                max--;
+            }
             
             if(!a && !b){
                 x++;
