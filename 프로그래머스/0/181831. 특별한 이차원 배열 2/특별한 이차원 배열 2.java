@@ -5,10 +5,10 @@ class Solution {
         
         for(int i = 0; i < len; i++){
             for(int j = 0; j < len; j++){
-                if(arr[i][j] == arr[j][i]) answer++;
+                if(arr[i][j] != arr[j][i]) return answer;
             }
         }
         
-        return answer == len * len ? 1 : 0;
+        return answer = 1;
     }
 }
