@@ -4,44 +4,14 @@ class Solution {
 
         for(int i = 0; i < babbling.length; i++){
             String select = babbling[i];
-            String temp = "";
-            int count = 0;
-            boolean check = false;
             
-            boolean aya = false;
-            boolean ye = false;
-            boolean woo = false;
-            boolean ma = false;
-            
-            for(int j = 0; j < select.length(); j++){
-                char c = select.charAt(j);  
-                temp += c;
+            select = select.replaceAll("aya","!");
+            select = select.replaceAll("ye","!");
+            select = select.replaceAll("woo","!");
+            select = select.replaceAll("ma","!");
+            select = select.replaceAll("!","");
 
-                if(temp.equals("ye")){
-                    check = true;
-                    if(ye) break;
-                    temp = temp.replace("ye","");
-                    ye = true;
-                }else if(temp.equals("ma")){
-                    check = true;
-                    if(ma) break;
-                    temp = temp.replace("ma","");
-                    ma = true;
-                }else if(temp.equals("aya")){
-                    check = true;
-                    if(aya) break;
-                    temp = temp.replace("aya","");
-                    aya = true;
-                }else if(temp.equals("woo")){
-                    check = true;
-                    if(woo) break;
-                    temp = temp.replace("woo","");
-                    woo = true;
-                }
-
-            }
-            
-            if(temp.equals("")) answer += check ? 1 : 0;
+            answer += select.isEmpty() ? 1 : 0;
             
         }
         
