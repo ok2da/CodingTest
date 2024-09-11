@@ -2,24 +2,18 @@ import java.util.*;
 class Solution {
     public int[] solution(int n) {
         int[] answer = {};
+        int count = 0;
         
-        List<Integer> list = new ArrayList<>();
+        for(int i = 1; i <= n; i++) if(n % i == 0) count++;
         
-        for(int i = 1; i <= Math.sqrt(n); i++){
-            if(n % i == 0) {
-                list.add(i);
-                if (i != n / i) {
-                    list.add(n / i);
-                }
+        answer = new int[count];
+        count = 0;
+        
+        for(int j = 1; j <= n; j++) {
+            if(n % j == 0) {
+                answer[count] = j;
+                count++;
             }
-        }
-        
-        Collections.sort(list);
-        
-        answer = new int[list.size()];
-        
-        for(int j = 0; j < answer.length; j++){
-            answer[j] = list.get(j);
         }
         
         return answer;
