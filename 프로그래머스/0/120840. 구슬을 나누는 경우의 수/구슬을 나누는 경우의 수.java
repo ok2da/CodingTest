@@ -1,24 +1,15 @@
-import java.math.*;
 class Solution {
     public int solution(int balls, int share) {
-        int answer = 0;
-        
-        BigInteger operation;
-        
-        operation = factorial(balls).divide(factorial(balls - share).multiply(factorial(share)));
-        
-        answer = operation.intValue();
-        
+        int answer = (int) oper(balls, share);
+
         return answer;
     }
     
-    public BigInteger factorial(int n){
-        BigInteger temp = BigInteger.valueOf(1);
+    public long oper(int a, int b){
+        int n = (a - b) > b ? b : a - b;
         
-        for(int i = 1; i <= n; i++){
-            temp = temp.multiply(BigInteger.valueOf(i));
-        }
-        
-        return temp;
+        if(n == 0) return 1;
+
+        return oper(a - 1, n - 1) * a / n;
     }
 }
