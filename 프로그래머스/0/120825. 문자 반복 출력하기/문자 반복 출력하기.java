@@ -8,7 +8,7 @@ class Solution {
         char[] cc = my_string.toCharArray();
         
         for(char c : cc){
-            for(int i = 0; i < n; i++) sb.append(c);
+            sb.append(("" + c).repeat(n));
         }
         
         answer = sb.toString();
