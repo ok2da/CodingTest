@@ -8,7 +8,8 @@ class Solution {
         if(a - b != 0){
             answer = -1;
         }else {
-            answer = (b + 1) * (b + 1); // Math.pow(b + 1);
+            answer = (b + 1) * (b + 1);
+            //answer = (long) Math.pow(a+1, 2);
         }
         
         return answer;
