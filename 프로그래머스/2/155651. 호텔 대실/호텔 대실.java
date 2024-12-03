@@ -7,7 +7,7 @@ class Solution {
 
         int[][] time = new int[len][2];
 
-        List<Integer> list = new ArrayList<>();
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
 
         for(int i = 0; i < len; i++){
             String st = book_time[i][0];
@@ -18,8 +18,6 @@ class Solution {
         }
 
         Arrays.sort(time, (o1, o2) -> o1[0] - o2[0]);
-
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
 
         for(int j = 0; j < len; j++){
             int start = time[j][0];
