@@ -29,7 +29,7 @@ class Solution {
 
         if(num == 1) return false;
 
-        for(int i = 3; i < (long) Math.sqrt(num) + 1; i += 2){
+        for(long i = 3; i * i <= num; i += 2){
             if(num % i == 0) return false;
         }
         
