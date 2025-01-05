@@ -8,14 +8,11 @@ class Solution {
             s = queries[l][0];
             e = queries[l][1];
             k = queries[l][2];
-
             for(int j = s; j <= e; j++){    
                 if(j%k == 0 || j == 0) arr[j]++;
             }
-
         }
-        
-        
+
         return arr;
     }
 }
