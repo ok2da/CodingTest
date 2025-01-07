@@ -13,7 +13,6 @@ class Solution {
         	int result_num = 0;
         	String temp_str = "";
         	
-        	
             if(i%5 == 0) {
                 check = true;
                 
