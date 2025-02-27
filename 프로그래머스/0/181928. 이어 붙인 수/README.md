@@ -1,10 +1,10 @@
 # [level 0] 이어 붙인 수 - 181928 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181928) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181928?language=python3) 
 
 ### 성능 요약
 
-메모리: 74.7 MB, 시간: 2.09 ms
+메모리: 10.3 MB, 시간: 0.03 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 28일 21:24:44
+2025년 02월 27일 18:46:09
 
 ### 문제 설명
 
