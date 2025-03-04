@@ -7,9 +7,6 @@ def solution(arr, queries):
             if arr[i] > k:
                 n = min(arr[i], n)
             
-        if n == 1000001:
-            answer.append(-1)
-        else:
-            answer.append(n)
+        answer.append(n if n != 1000001 else -1)
     
     return answer
