@@ -1,10 +1,7 @@
 def solution(n):
     answer = [n]
     
-    while True:
-        
-        if n == 1:
-            break
+    while n != 1:
         if n % 2 == 0:
             n /= 2
             answer.append(n)
