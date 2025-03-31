@@ -1,10 +1,9 @@
 def solution(arr):
-    answer = -1
-    arr_count = 0
+    answer = 0
     
     while(True):
         temp_arr = []
-        result_count = 0
+        count = 0
         
         for i in range(len(arr)):
             if arr[i] >= 50 and arr[i] % 2 == 0:
@@ -15,12 +14,12 @@ def solution(arr):
                 temp_arr.append(arr[i])
                 
             if arr[i] == temp_arr[i]:
-                result_count += 1
+                count += 1
         
-        if result_count == len(arr):
-            return arr_count
+        if count == len(arr):
+            return answer
         else:
             arr = temp_arr
-            arr_count += 1
+            answer += 1
 
-    return answer
+    return -1
