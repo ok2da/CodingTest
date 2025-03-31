@@ -20,7 +20,7 @@ def solution(arr):
         if result_count == len(arr):
             return arr_count
         else:
-            arr = temp_arr.copy()
+            arr = temp_arr
             arr_count += 1
 
     return answer
