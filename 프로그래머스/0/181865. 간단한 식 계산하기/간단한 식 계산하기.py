@@ -1,11 +1,11 @@
 def solution(binomial):
-    answer = binomial.split(' ')
+    a, op, b = binomial.split(' ')
     
-    if answer[1] == '+':
-        return int(answer[0]) + int(answer[2])
-    elif answer[1] == '-':
-        return int(answer[0]) - int(answer[2])
-    elif answer[1] == '*':
-        return int(answer[0]) * int(answer[2])
+    if op == '+':
+        return int(a) + int(b)
+    elif op == '-':
+        return int(a) - int(b)
+    elif op == '*':
+        return int(a) * int(b)
     
     return 0
