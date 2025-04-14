@@ -1,14 +1,13 @@
 def solution(myString, pat):
-    answer = 0
     index = 0
-    
+
     for char in myString:
-        if char != pat[index]:
+        temp = 'A' if char == 'B' else 'B'
+        if temp == pat[index]:
             index += 1
+            if index == len(pat):
+                return 1
         else:
             index = 0
-        
-        if index == len(pat):
-            return 1
     
-    return answer
+    return 0
