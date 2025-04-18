@@ -1,13 +1,13 @@
 def solution(arr, k):
-    answer = [-1 for x in range(k)]
-    index = 0
-    
+    answer = []
+
     for a in arr:
         if a not in answer:
-            if index < k:
-                answer[index] = a
-                index += 1
-            else:
-                break
+            answer.append(a)
+        if len(answer) == k:
+            break
+    
+    if len(answer) < k:
+        answer = answer + ([-1] * (k - len(answer)))
         
     return answer
