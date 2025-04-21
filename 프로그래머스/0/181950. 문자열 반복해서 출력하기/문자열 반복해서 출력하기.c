@@ -7,7 +7,7 @@ int main(void) {
     scanf("%s %d", s1, &a);
     
     for(int i = 0; i < a; i++){
-        printf(s1);
+        printf("%s", s1);
     }
     
     
