@@ -10,7 +10,9 @@ def solution(arr1, arr2):
         elif sum1 < sum2:
             return -1
     else:
-        return 1 if len(arr1) > len(arr2) else -1
-            
+        if len(arr1) > len(arr2):
+            return 1
+        else:
+            return -1
     
     return "error"
