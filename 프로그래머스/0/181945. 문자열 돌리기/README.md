@@ -1,10 +1,10 @@
 # [level 0] 문자열 돌리기 - 181945 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181945?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181945?language=c) 
 
 ### 성능 요약
 
-메모리: 7.36 MB, 시간: 18.23 ms
+메모리: 4.08 MB, 시간: 2.57 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 02월 11일 17:50:43
+2025년 04월 22일 19:34:31
 
 ### 문제 설명
 
