@@ -6,7 +6,6 @@ def solution(strArr):
     for str in strArr:
         arrlen[len(str)] += 1
         
-        if answer < arrlen[len(str)]:
-            answer = arrlen[len(str)]
+    answer = max(arrlen)
     
     return answer
