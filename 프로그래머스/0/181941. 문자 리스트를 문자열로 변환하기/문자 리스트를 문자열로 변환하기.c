@@ -9,7 +9,7 @@ char* solution(const char* arr[], size_t arr_len) {
     char* answer = (char*)malloc(arr_len + 1);
     
     for(int i = 0; i < arr_len; i++){
-        answer[i] = arr[i][0];
+        answer[i] = *arr[i];
     }
     
     answer[arr_len] = '\0';
