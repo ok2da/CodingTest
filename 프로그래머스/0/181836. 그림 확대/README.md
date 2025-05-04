@@ -1,10 +1,10 @@
 # [level 0] 그림 확대 - 181836 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181836) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181836?language=python3) 
 
 ### 성능 요약
 
-메모리: 82.9 MB, 시간: 20.22 ms
+메모리: 9.36 MB, 시간: 0.06 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 09월 06일 00:07:37
+2025년 05월 04일 22:58:01
 
 ### 문제 설명
 
