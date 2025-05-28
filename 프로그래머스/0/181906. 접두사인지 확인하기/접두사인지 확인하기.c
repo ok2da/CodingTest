@@ -6,9 +6,10 @@
 int solution(const char* my_string, const char* is_prefix) {
     int answer = 0;
     int idx = 0;
+    int len = strlen(is_prefix);
     
     while(1){
-        if(idx == strlen(is_prefix)){
+        if(idx == len){
             return 1;
         }else if(my_string[idx] == is_prefix[idx]){
             idx++;
