@@ -1,10 +1,10 @@
 # [level 0] n개 간격의 원소들 - 181888 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181888) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181888?language=c) 
 
 ### 성능 요약
 
-메모리: 77.5 MB, 시간: 0.02 ms
+메모리: 4.21 MB, 시간: 0.03 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 08월 23일 19:48:54
+2025년 06월 13일 19:54:23
 
 ### 문제 설명
 
