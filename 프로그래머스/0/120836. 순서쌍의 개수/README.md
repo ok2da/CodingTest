@@ -1,10 +1,10 @@
 # [level 0] 순서쌍의 개수 - 120836 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120836) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120836?language=c) 
 
 ### 성능 요약
 
-메모리: 78.9 MB, 시간: 5.33 ms
+메모리: 3.68 MB, 시간: 2.24 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 09월 26일 17:55:52
+2025년 10월 24일 00:42:14
 
 ### 문제 설명
 
