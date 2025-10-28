@@ -1,0 +1,3 @@
+def solution(age):
+    answer = ''.join([chr(int(x) + 97) for x in str(age)])
+    return answer
