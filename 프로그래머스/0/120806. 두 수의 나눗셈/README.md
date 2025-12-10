@@ -1,10 +1,10 @@
 # [level 0] 두 수의 나눗셈 - 120806 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120806) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120806?language=c) 
 
 ### 성능 요약
 
-메모리: 77.9 MB, 시간: 0.03 ms
+메모리: 4.19 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,11 +16,11 @@
 
 ### 제출 일자
 
-2024년 09월 29일 20:13:09
+2025년 12월 10일 18:27:36
 
 ### 문제 설명
 
-<p>정수 <code>num1</code>과 <code>num2</code>가 매개변수로 주어질 때, <code>num1</code>을 <code>num2</code>로 나눈 값에 1,000을 곱한 후 정수 부분을 return 하도록 soltuion 함수를 완성해주세요.</p>
+<p>정수 <code>num1</code>과 <code>num2</code>가 매개변수로 주어질 때, <code>num1</code>을 <code>num2</code>로 나눈 값에 1,000을 곱한 후 정수 부분을 return 하도록 solution 함수를 완성해주세요.</p>
 
 <hr>
 
