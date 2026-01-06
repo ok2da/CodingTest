@@ -1,10 +1,10 @@
 # [level 1] 바탕화면 정리 - 161990 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/161990) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/161990?language=c) 
 
 ### 성능 요약
 
-메모리: 95.4 MB, 시간: 15.41 ms
+메모리: 4.19 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 10월 03일 23:52:30
+2026년 01월 06일 23:05:11
 
 ### 문제 설명
 
