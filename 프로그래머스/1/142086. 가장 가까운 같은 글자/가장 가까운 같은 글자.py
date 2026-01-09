@@ -11,5 +11,7 @@ def solution(s):
         else:
             answer.append(i - check[index])
         check[index] = i;
+        
+    # 1)) 평균 실행 0.58ms, 메모리 사용량 9.38mb
             
     return answer
