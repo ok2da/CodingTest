@@ -1,0 +1,6 @@
+SELECT
+    COUNT(*) as USERS
+FROm
+    USER_INFO
+WHERE
+    AGE IS NULL
